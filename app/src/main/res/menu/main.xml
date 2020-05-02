@@ -1,0 +1,16 @@
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/camera"
+        android:orderInCategory="100"
+        android:title="카메라로 사진찍기"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/album"
+        android:orderInCategory="100"
+        android:title="앨범에서 가져오기"
+        app:showAsAction="never" />
+
+</menu>
